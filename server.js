@@ -1,5 +1,5 @@
 var express = require("express");
-var methodOverride = require("mothod-override");
+var methodOverride = require("method-override");
 var bodyParser = require("body-parser");
 
 var port = 3000;
@@ -27,3 +27,18 @@ app.use("/", routes);
 
 app.listen(port);
 console.log("app listening on port " + port);
+
+// create database YES
+// create tables YES
+// require express, method-override, body-parser YES
+// connect to server YES
+// connect to database YES
+// set up handlebars
+// create html form - submit button
+// create - add to database table
+// the entered burger goes to one side of the screen
+// 	is numbered
+// has the option of eating it
+// 	which updates and goes to another table
+// 	thus eaten burgers go to the other side of the screen
+// data is persistent
